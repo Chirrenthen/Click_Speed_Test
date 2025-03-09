@@ -1,0 +1,22 @@
+{
+    "name": "Click Speed Test | Chirrenthen",
+    "short_name": "Click Speed Test",
+    "description": "A fun and engaging click speed test game.",
+    "start_url": "index.html",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#007BFF",
+    "icons": [
+      {
+        "src": "click.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "click.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ]
+  }
+  

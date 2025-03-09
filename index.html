@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<!--Code written by Chirrenthen-->
+<!--Consider Supporting me on Patreon--> <!--https://www.patreon.com/c/Chirrenthen-->
+<!--For mode details on this project, check out "https://chirrenthen13.wixsite.com/iothub"-->
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Click Speed Test | Chirrenthen</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="click.png" type="image/x-icon">
+  <link rel="manifest" href="manifest.json">
+  <!-- Confetti Library -->  
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h2>Click Speed Test</h2>
+    <label for="username">Enter your name:</label>
+    <input type="text" id="username" placeholder="Your Name" required>
+    <br>
+    <label for="time-select">Choose time duration:</label>
+    <select id="time-select">
+      <option value="5">5 seconds</option>
+      <option value="10">10 seconds</option>
+      <option value="15">15 seconds</option>
+    </select>
+    <div class="click-area" id="click-area">
+      Click to Start
+      <div class="timer" id="timer">0</div>
+    </div>
+  </div>
+  <!-- Results Overlay -->
+  <div class="results-overlay" id="results-overlay">
+    <div class="results-card">
+      <h3>Test Over!</h3>
+      <div class="card" id="user-name"></div>
+      <div class="card" id="total-clicks"></div>
+      <div class="card" id="final-cps"></div>
+      <div class="card" id="rank"></div>
+      <button class="reset-btn" id="reset">Reset</button>
+    </div>
+  </div>
+  <footer><p><center>Code Crafted with 🩵 by Chirrenthen</center></p></footer>
+<script src="script.js"></script>
+</body>
+</html>
