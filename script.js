@@ -60,7 +60,7 @@ function endTest() {
   // Confetti animation
   confetti({
     particleCount: 100,
-    spread: 70,
+    spread: 100,
     origin: { y: 0.6 }
   });
 }
